@@ -1,0 +1,1 @@
+NPM stands for Node Package Manager. It's an online repository of node packages that can be quickly and programmatically installed from the command line, with the npm command line interface that comes with Node.

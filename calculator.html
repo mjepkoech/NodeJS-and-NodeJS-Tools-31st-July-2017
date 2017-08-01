@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nodejs demo</title>
+<style>
+body{
+	width:610px;
+	font-family:calibri;
+}
+
+.demo-table {
+	background: #d9eeff;
+	width: 100%;
+	border-spacing: initial;
+	margin: 2px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+	border-radius: 4px;
+	padding: 20px 40px;
+}
+.demo-table td {
+	padding: 15px 0px;
+}
+.btnRegister {
+	padding: 10px 30px;
+	background-color: #3367b2;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+</style>
+
+</head>
+</body>
+<form name="frmRegistration" method="post" action="">
+<table border="0" width="500" align="center" class="demo-table">
+    <th>Nodejs calculation Demo</th>
+    <tr>
+        <td>First Number</td>
+        <td><p id="main"></p></td>
+        <script>
+            var first = "5";
+            document.getElementById("main").innerHTML = first;
+        </script>
+    </tr>
+    <tr>
+        <td>Second Number</td>
+        <td><p id="second"></p></td>
+        <script>
+            var second = "5";
+            document.getElementById("second").innerHTML = second;
+        </script>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="myFunction()" class="btnRegister">Find Result!</button></td>
+        <td><p id="result"></p>
+            <script>
+                var a = 5;
+                function myFunction() {
+                    document.getElementById("result").innerHTML = a * a;
+                }
+            </script>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
